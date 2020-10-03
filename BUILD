@@ -13,7 +13,8 @@ pkg_tar(
     name = "firmware_bundle",
     extension = "tgz",
     deps = [
-        "//KoboRoot:tar",
+        "//python3",
+        "//telnet_server",
         "@nickel_menu//file",
     ],
 )
