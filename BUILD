@@ -17,5 +17,6 @@ pkg_tar(
         "//telnet_server",
         "//kt:tar",
         "@nickel_menu//file",
+        "@kfmon//:KoboRoot.tgz",
     ],
 )

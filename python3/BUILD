@@ -3,7 +3,7 @@ load("//tools:tar.bzl", "easy_tar")
 easy_tar(
     name = "python3",
     srcs = [
-        "//python3/usr",
+        "//python3/mnt",
     ],
     out = "KoboRoot.tgz",
     strip_prefix = "python3",

@@ -1,5 +1,5 @@
 filegroup(
-    name = "usr",
+    name = "mnt",
     srcs = glob(["**/*"]),
     visibility = ["//visibility:public"],
 )

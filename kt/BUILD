@@ -4,7 +4,7 @@ load("//tools:tar.bzl", "easy_tar")
 filegroup(
     name = "kt_sources",
     srcs = [
-        "//kt/usr",
+        "//kt/mnt",
     ],
 )
 

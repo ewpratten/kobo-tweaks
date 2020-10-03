@@ -18,9 +18,9 @@ I am working to add:
  - A Python3 interpreter
  - A `kobo_ctl` tool for interacting with the kobo system
 
-## Usage
+## Installation & Usage
 
-For usage information, see [the wiki]().
+For installation and usage information, see [the wiki](https://github.com/Ewpratten/kobo-tweaks/wiki).
 
 ## Acknowledgements
 
