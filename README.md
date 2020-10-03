@@ -18,6 +18,10 @@ I am working to add:
  - A Python3 interpreter
  - A `kobo_ctl` tool for interacting with the kobo system
 
+## Usage
+
+For usage information, see [the wiki]().
+
 ## Acknowledgements
 
 This project piggybacks off the works of:

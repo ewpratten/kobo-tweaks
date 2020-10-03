@@ -30,11 +30,3 @@ http_file(
         "https://github.com/pgaskin/NickelMenu/releases/download/v{version}/KoboRoot.tgz".format(version = NICKEL_MENU_VERSION),
     ],
 )
-
-http_file(
-    name = "config_guess",
-    downloaded_file_path = "config.guess",
-    urls = [
-        "https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess",
-    ],
-)
