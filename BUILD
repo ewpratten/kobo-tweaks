@@ -1,15 +1,6 @@
 load("//tools:tar.bzl", "concat_files")
 load("@rules_pkg//:pkg.bzl", "pkg_tar")
 
-# concat_files(
-#     name = "firmware",
-#     srcs = [
-#         "//KoboRoot",
-#         "@nickel_menu//file",
-#     ],
-#     out = "KoboRoot.tgz",
-# )
-
 concat_files(
     name = "firmware",
     srcs = [
