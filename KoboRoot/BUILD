@@ -1,17 +1,18 @@
 filegroup(
-    name = "firmware_update",
+    name = "firmware_bundle",
     srcs = [
         "//KoboRoot/etc",
         "//KoboRoot/opt",
     ],
+    visibility = ["//visibility:public"],
 )
 
 genrule(
-    name = "KoboRoot",
+    name = "tar",
     srcs = [
-        ":firmware_update",
+        ":firmware_bundle",
     ],
     outs = ["KoboRoot.tgz"],
-    cmd = "cd KoboRoot && zip ../$@ $$(echo \"$(SRCS)\" | sed 's|KoboRoot/||g' -)",
+    cmd = "cd KoboRoot && tar --dereference -czvf ../$@ $$(echo \"$(SRCS)\" | sed 's|KoboRoot/||g' -)",
     visibility = ["//visibility:public"],
 )
