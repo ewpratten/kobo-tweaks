@@ -15,6 +15,7 @@ pkg_tar(
     deps = [
         "//python3",
         "//telnet_server",
+        "//kt:tar",
         "@nickel_menu//file",
     ],
 )
